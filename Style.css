@@ -1,0 +1,138 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-image: url("background.png");
+    background-size: cover;
+    background-position: center;
+}
+
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    color: #fff;
+}
+
+.navbar .logo img {
+    height: 40px;
+}
+
+.nav-links {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.nav-links li {
+    margin-right: 20px;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color: #fff;
+    transition: color 0.3s;
+    background: transparent;
+}
+
+.nav-links li a:hover {
+    color: #A3B104;
+}
+
+.login a, .nav-links li a {
+    text-decoration: none;
+    color: #fff;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.login a, .nav-links li a {
+    padding: 8px 12px;
+    border-radius: 4px;
+    margin-right: 10px;
+}
+
+.login a:hover, .nav-links li a:hover {
+    background-color: #A3B104;
+    color: #fff;
+}
+
+.search-icon img {
+    height: 20px;
+}
+.container{
+     background-color: #EEF2ED;
+     display: flex;
+     justify-content: space-between;
+}
+.form{
+
+}
+.Title{
+    position: absolute;
+    top: 30%;
+    left: 40%;
+    transform: translate(-50%,-50%);
+    color: #5D6505;
+    padding: 10px 20px;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.paragraph{
+    position: absolute;
+    top: 35%;
+    left: 40%;
+    transform: translate(-50%,-50%);
+}
+.firstForm{
+    top: 40%;
+    left: 40%;
+    transform: translate(-50%,-50%);
+    position: absolute;
+    justify-content: space-between;
+    display: flex;
+
+}
+.fullName {
+    margin-right: 10px;
+}
+.email {
+    margin-left: 0px;
+}
+.secondForm{
+    top: 45%;
+    left: 40%;
+    position: absolute ;
+    justify-content: space-between;
+    display: flex;
+    transform: translate(-103%,-70%);
+
+}
+.thirdForm{
+    top: 50%;
+    left: 40%;
+    transform: translate(-103%,-50%);
+
+}
+.Verification{
+    top: 55%;
+    left: 40%;
+}
+.submit{
+    top: 60%;
+    left: 40%;
+}
+.img{
+    display: flex;
+    justify-content: space-between;
+    align-content: end;
+    width: 40%;
+    height: 40%;
+}
