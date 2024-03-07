@@ -1,11 +1,10 @@
 body {
     margin: 0;
-    font-family: 'Roboto',sans-serif;
-    background-image: url('/pictures/backgraound.png'); 
-    background-size: cover; 
-    box-sizing: border-box;
-    background-position: center; 
-  }
+    font-family: Arial, sans-serif;
+    background-image: url("/Pictures/backgraound.png");
+    background-size: cover;
+    background-position: center;
+}
   
   
   .navbar {
@@ -17,7 +16,7 @@ body {
   }
   
   .navbar .logo img {
-    height: 40px;
+    height: 70px;
   }
   
   .nav-links {
@@ -54,7 +53,7 @@ body {
     margin-right: 10px;
   }
   
-  .login a:hover, .nav-links li a:hover, #a1 {
+  .login a:hover, .nav-links li a:hover, #a2 {
     background-color: #A3B104; 
     color: #fff;
   }
@@ -63,8 +62,81 @@ body {
     height: 20px;
   }
 
+
+
+  .footer
+{
+    width: 100%;
+    background-color: #25481F;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 120px;
+}
+.footer1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+.footer2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 100px;
+    padding-bottom: 10px;
+}
+.lienExternal,.lienInternal{
+    padding-top: 90px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+}
+.socialMedia{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: 10px;
+}
+.lienfooter{
+    color: white;
+    text-decoration: none;
+}
+.information{
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.titleXofram{
+    font-size: 30px;
+    font-weight: 700;
+    font-style: italic;
+}
+.descriptionfooter{
+    margin-top: 20px;
+}
+.adress{
+    margin-top: 15px;
+}
+.copyright{
+    font-size: 10px;
+    font-weight: bold;
+}
+
+
+
+  
+
+
+  /*About us code*/
+
   .about-us{
     background-color: #f2f2f2;
+    height: 600px;
 }
 
   .heading{
@@ -168,6 +240,75 @@ body {
 .about-content .read-more:hover{
     background-color: #A3B104;
 }
+
+/*The home page code*/
+
+.home {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+  }
+  
+  .content-home {
+    flex: 1;
+    margin-right: 1px; 
+    
+  }
+  
+  .h1-home {
+    font-size: 36px;
+    margin-bottom: 40px;
+    margin-left: 100px;
+    color: #A3B104;
+  }
+  
+  .h2-home {
+    font-size: 36px;
+    margin-bottom: 40px;
+    margin-left: 100px;
+    color: #f2f2f2;
+  }
+  
+  .p-home {
+    font-size: 18px;
+    margin-bottom: 40px;
+    margin-left: 100px;
+    color: #A3B104;
+    
+  }
+  
+  .read-more-home {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #A3B104;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 18px;
+    transition: background-color 0.3s ease;
+    margin-left: 100px;
+  }
+  
+  .read-more-home:hover {
+    background-color: transparent;
+    border: 2px solid #A3B104;
+  }
+  
+  .image-home {
+    flex: 1;
+    text-align: right;
+  }
+  
+  .img-home {
+    width: 300px;
+    height: auto;
+    margin-right: 160px;
+    margin-top: 50px;
+  }
+
+
+  
 
 
 
