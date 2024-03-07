@@ -1,0 +1,139 @@
+.OurProduct{
+    margin:0;
+    display: flex;
+    flex-direction:column;
+}
+
+.content_OurProduct{
+    background-color: brown;
+}
+.head_OurProduct{
+    background-color: blue;
+}
+body{
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-image: url('./pictures/backgraound.png'); 
+    background-size: cover; 
+    background-position: center; 
+}
+  
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    color: #fff;
+}
+  
+.navbar .logo img {
+    height: 40px;
+}
+  
+.nav-links {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+  
+.nav-links li {
+    margin-right: 20px;
+}
+  
+.nav-links li a {
+    text-decoration: none;
+    color: #fff;
+    transition: color 0.3s; 
+    background: transparent;
+}
+  
+.nav-links li a:hover {
+    color: #A3B104; 
+}
+  
+.login a, .nav-links li a {
+    text-decoration: none;
+    color: #fff;
+    transition: background-color 0.3s, color 0.3s; 
+}
+  
+.login a, .nav-links li a {
+    padding: 8px 12px; 
+    border-radius: 4px;
+    margin-right: 10px;
+}
+  
+.login a:hover, .nav-links li a:hover,#liencliquer {
+    background-color: #A3B104; 
+    color: #fff;
+}
+
+.search-icon img {
+    height: 20px;
+    cursor: pointer;
+}
+.footer
+{
+    width: 100%;
+    background-color: #25481F;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 120px;
+}
+.footer1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+}
+.footer2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 100px;
+    padding-bottom: 10px;
+}
+.lienExternal,.lienInternal{
+    padding-top: 90px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+}
+.socialMedia{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: 10px;
+}
+.lienfooter{
+    color: white;
+    text-decoration: none;
+}
+.information{
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.titleXofram{
+    font-size: 30px;
+    font-weight: 700;
+    font-style: italic;
+}
+.descriptionfooter{
+    margin-top: 20px;
+}
+.adress{
+    margin-top: 15px;
+}
+.copyright{
+    font-size: 10px;
+    ;font-weight: bold;
+}
+
