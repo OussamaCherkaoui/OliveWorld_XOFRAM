@@ -135,11 +135,11 @@ body {
   /*About us code*/
 
   .about-us{
-    background-color: #f2f2f2;
+    background-color: #EEF2ED;
     height: 600px;
 }
 
-  .heading{
+  .about-heading{
     width: 90%;
     display: flex;
     justify-content: center;
@@ -149,7 +149,7 @@ body {
     margin: 20px auto;
 }
 
-.heading h1{
+.about-heading h1{
     font-size: 50px;
     color: #000;
     margin-bottom: 20px;
@@ -157,7 +157,7 @@ body {
 }
 
 
-.heading h1::after{
+.about-heading h1::after{
     content: "";
     position: absolute;
     width: 100%;
@@ -168,7 +168,7 @@ body {
 
 }
 
-.heading p{
+.about-heading p{
     font-size: 18px;
     color: #666;
     margin-bottom: 35px;
