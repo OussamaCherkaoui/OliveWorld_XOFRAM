@@ -68,9 +68,9 @@ body {
     height: 20px;
 }
 .container{
-     background-color: #EEF2ED;
-     display: flex;
-     justify-content: space-between;
+    background-color: #EEF2ED;
+    display: flex;
+    justify-content: space-between;
 }
 .form{
 
@@ -78,37 +78,42 @@ body {
 .Title{
     position: absolute;
     top: 30%;
-    left: 40%;
-    transform: translate(-50%,-50%);
+    left: 30%;
+    transform: translate(-90%,-50%);
     color: #5D6505;
     padding: 10px 20px;
     font-size: 30px;
     margin-bottom: 20px;
 }
 .paragraph{
+    color: #5D6505;
     position: absolute;
     top: 35%;
-    left: 40%;
+    left: 30%;
     transform: translate(-50%,-50%);
 }
 .firstForm{
+    color: #5D6505;
     top: 40%;
-    left: 40%;
+    left: 20%;
     transform: translate(-50%,-50%);
     position: absolute;
     justify-content: space-between;
     display: flex;
+    border: 2px solid #A3B104;
 
 }
 .fullName {
+    color: #5D6505;
     margin-right: 10px;
 }
 .email {
     margin-left: 0px;
 }
 .secondForm{
+    color: #5D6505;
     top: 45%;
-    left: 40%;
+    left: 20%;
     position: absolute ;
     justify-content: space-between;
     display: flex;
@@ -117,22 +122,67 @@ body {
 }
 .thirdForm{
     top: 50%;
-    left: 40%;
-    transform: translate(-103%,-50%);
+    left: 20%;
+    transform: translate(-103%,-70%);
+    position: absolute;
+    justify-content: space-between;
+    display: flex;
 
+
+}
+.verify{
+    display: flex;
+    justify-content: space-between;
+]
 }
 .Verification{
     top: 55%;
-    left: 40%;
+    left: 20%;
+    transform: translate(-103%,-50%);
+    position: absolute;
+    justify-content: space-between;
+    display: flex;
+
+
 }
-.submit{
+.receiving{
+    color: #5D6505;
+    position: absolute;
+    top: 55%;
+    left: 18%;
+    transform: translate(10%,-50%);
+    color: #5D6505;
+    padding: 40px 30px;
+    font-size: 10px;
+    margin-bottom: 40px;
+}
+.recap{
+    color: #5D6505;
     top: 60%;
-    left: 40%;
+    left: 15%;
+    position: absolute;
+    transform: translate(-20%,-50%);
 }
-.img{
+
+.submit{
+    color: white;
+    top: 65%;
+    left: 15%;
+    position: absolute;
+    transform: translate(-20%,-50%);
+}
+.img {
     display: flex;
     justify-content: space-between;
     align-content: end;
-    width: 40%;
-    height: 40%;
 }
+.img img{
+    width: 100%;
+    height: auto;
+}
+
+footer {
+
+}
+
+
