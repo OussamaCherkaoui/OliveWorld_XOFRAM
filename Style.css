@@ -65,7 +65,9 @@ body {
 .login a:hover, .nav-links li a:hover, #a2 {
     background-color: #A3B104; 
     color: #fff;
-  }
+}
+
+
 .footer
 {
     width: 100%;
@@ -434,6 +436,13 @@ body {
   }
 
 /*The Contact Us code*/
+
+.container{
+    background-color: #EEF2ED;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
 
 .Title{
     position: absolute;
