@@ -179,7 +179,7 @@ body {
     width: 120px;
     height: 150px;
     background-color: #D9D9D9;
-    border-radius: 15%;
+    border-radius: 8%;
 }
 .etoile{
     display: flex;
@@ -222,13 +222,9 @@ body {
 }
 
 
-
-  
-
-
   /*About us code*/
 
-  .about-us{
+.about-us{
     background-color: #EEF2ED;
     height: 600px;
 }
@@ -635,7 +631,7 @@ body {
 }
 .titleServices{
     padding-bottom: 20px;
-    font-size: 3em;
+    font-size: 40px;
     font-weight: 500;
     color: white;
 }  
@@ -647,11 +643,18 @@ body {
     gap: 80px 10px ;
     color: white;
 }
-.pictureservice>img{
+.pictureservice{
     width: 140px;
     height: 140px;
     background-color: #D9D9D9;
     border-radius: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.pictureservice>img{
+    width: 60%;
 }
 
 .service1,.service2,.service3,.service4,.service5,.service6,.service7,.service8,.service9{
